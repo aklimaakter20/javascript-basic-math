@@ -60,8 +60,8 @@ let addMachine = 2;
 let totalMachines = useMachine + addMachine; 
 let totalProductMake = perMachineMake * totalMachines;
 let notSellProduct = 3;
-let remainingProduct = totalProductMake - notSellProduct;
-let remainingProductNow = "Remaining product : " + " " + remainingProduct;
+
+let remainingProductNow = "Total Product Make : " + " " + totalProductMake + " " + " & Remaining Product : " + notSellProduct;
 
 console.log(remainingProductNow);
 
